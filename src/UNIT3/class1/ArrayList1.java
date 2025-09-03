@@ -1,7 +1,7 @@
 package UNIT3.class1;
 
 import java.util.*;
-
+import java.util.ArrayList;
 public class ArrayList1 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -43,8 +43,8 @@ public class ArrayList1 {
             System.out.print(it.next() + " ");
         }
         Products.add(1, "Apple");
-        Products.addFirst("Xro");
-        Products.addFirst("yo");
+//        Products.addFirst("Xro");
+//        Products.addFirst("yo");
         System.out.println(Products.get(0));
 
     }
