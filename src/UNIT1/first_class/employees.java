@@ -15,5 +15,20 @@ public class employees{
         this.id = id;
         this.name = name;
     }
+
+    public static void main(String[] args) {
+        employees e1 = new employees();
+        System.out.println(e1.id);
+
+        e1.id = 15;
+        System.out.println(e1.id);
+        e1.name = "NAAM";
+        System.out.println(e1.name);
+
+        employees e2 = new employees(15, "asdflkasf");
+        System.out.println(e2.name);
+        System.out.println(e2.id);
+
+    }
 }
 

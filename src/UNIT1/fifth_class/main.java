@@ -5,5 +5,6 @@ public class main {
         CollegeStudent cs = new CollegeStudent("PRC", 45);
         cs.attend_class();
         cs.give_exam();
+
     }
 }

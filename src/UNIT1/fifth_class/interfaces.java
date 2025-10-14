@@ -14,6 +14,7 @@ public class interfaces implements  Printable, showable{ // either have to make 
         interfaces inter = new interfaces();
         inter.print();
         inter.show();
+//        inter.mystatic();
         // default static and privates cannot be accessed from interfaces
 
     }

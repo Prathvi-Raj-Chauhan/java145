@@ -5,7 +5,7 @@ public interface Printable { // interfaces are always implemented only
     private void my(){
         System.out.println("this is my private method");
     }
-    public static void mystatic(){
+    static void mystatic(){
         System.out.println("This is my static method");
     }
 }

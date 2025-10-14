@@ -12,8 +12,7 @@ public class exception_handling {
 
         DataInputStream dis = new DataInputStream(System.in);
         int b = dis.readInt(); // If we don't handle the IO exceptions this wont work because it belongs to io package and handling io package is necessary if using io package
-//        using this IOException fixes the error 🟩 "public static void main(String[] args) throws IOException {"
-//        either use Exception e in catch block
+//        using this IOException fixes the error 🟩 "public static void main(String[] args) throws IOException {" either use Exception e in catch block
 //        this is an example of "Checked Exception" it is checked in compile time only
         Scanner in = new Scanner(System.in);
 

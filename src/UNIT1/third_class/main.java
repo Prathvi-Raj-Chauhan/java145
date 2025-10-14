@@ -10,7 +10,6 @@ public class main {
         A.bread--;
         A.display();
         B.display();
-
     }
 
 }
