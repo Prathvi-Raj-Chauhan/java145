@@ -16,5 +16,8 @@ public class Sorting1 {
         Collections.sort(ls, Comparator.reverseOrder());
 //      Collections.reverse(ls);
         System.out.println(ls);
+        String yo = "ASDFA";
+        char[] ch = yo.toCharArray();
+
     }
 }
